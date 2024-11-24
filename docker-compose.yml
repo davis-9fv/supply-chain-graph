@@ -1,0 +1,27 @@
+---
+version: "3.9"
+services:
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - DB_URL=jdbc:postgresql://postgres:5432/postgres
+    ports:
+    - "8080:8080"
+
+  postgres:
+    image: 'postgres:15.4'
+    ports:
+    - '5432:5432'
+    volumes:
+    - 'pgdata:/var/lib/postgresql/data/'
+    environment:
+      POSTGRES_PASSWORD: 'postgres'
+      POSTGRES_USER: 'postgres'
+      POSTGRES_DB: 'postgres'
+    networks:
+    - default
+volumes:
+  pgdata:

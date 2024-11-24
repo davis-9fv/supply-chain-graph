@@ -1,0 +1,33 @@
+---
+db:
+  url: ${DB_URL:jdbc:postgresql://localhost:5432/postgres}
+  user: postgres
+  password: postgres
+
+spring:
+  application:
+    name: supply-chain-graph
+
+  flyway:
+    enabled: true
+    url: ${db.url}
+    user: ${db.user}
+    password: ${db.password}
+    locations: classpath:db/migration/
+    baseline-on-migrate: true
+
+  datasource:
+    url: ${db.url}
+    username: ${db.user}
+    password: ${db.password}
+    hikari:
+      max-lifetime: 600000
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: none
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+    properties:
+      hibernate.jdbc.time_zone: UTC
+    show-sql: false
