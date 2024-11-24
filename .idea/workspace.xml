@@ -108,37 +108,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build supply-chain-graph.executor": "Run",
-    "Gradle.EdgeControllerTest.It should add an edge.executor": "Run",
-    "Gradle.EdgeControllerTest.executor": "Run",
-    "Gradle.EdgeDto.It should validate fields.executor": "Run",
-    "Gradle.EdgeDto.executor": "Run",
-    "Gradle.SupplyChainGraphApplicationTests.contextLoads.executor": "Run",
-    "Gradle.TreeDto.executor": "Run",
-    "Gradle.supply-chain-graph [build].executor": "Run",
-    "Gradle.supply-chain-graph [clean].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.SupplyChainGraphApplication (1).executor": "Run",
-    "Spring Boot.SupplyChainGraphApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/davis/IdeaProjects/supply-chain-graph",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.ktlint-plugin",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build supply-chain-graph.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.EdgeControllerTest.It should add an edge.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.EdgeControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.EdgeDto.It should validate fields.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.EdgeDto.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SupplyChainGraphApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TreeDto.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.supply-chain-graph [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.supply-chain-graph [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.SupplyChainGraphApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SupplyChainGraphApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/davis/IdeaProjects/supply-chain-graph&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.ktlint-plugin&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docs" />
