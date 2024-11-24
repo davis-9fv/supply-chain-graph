@@ -71,7 +71,7 @@ docker compose up -d --build
 
 The API is a REST API that has the following endpoint:
 ```
-http://localhost/swagger-ui/index.html
+http://localhost:8080/swagger-ui/index.html
 ```
 ![Sample Image](docs/swagger.png "Swagger")
 
