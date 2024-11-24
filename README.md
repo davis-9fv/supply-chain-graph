@@ -28,7 +28,7 @@ integration.
 ### Notes
 * The table columns where changed from from_id to id and from to_id to child_id
 for better readability.
-* JPA was used to interact with the database.
+* JPA was used instead of JOOQ.
 * Duplicates are not handle since they are considered normal updates.
 * When deleting, it does not raise an exception if the edge does not exist. Fire 
 and forget approach.
